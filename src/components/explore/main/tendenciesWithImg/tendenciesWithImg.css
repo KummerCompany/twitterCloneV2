@@ -1,0 +1,18 @@
+.tendenciesWithImgContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    border-style: solid;
+    border-color: cadetblue;
+}
+.tendenciesWithImgContainer:hover{
+    background-color: darkslategray;
+}
+
+.imageContainer img{
+    max-height: 90px;
+    border-radius: 20px;
+    align-items: flex-end;
+    margin-right: 20px;
+}

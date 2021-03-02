@@ -1,0 +1,14 @@
+*{
+    color: lavender;
+}
+.tendenciesContainer{
+    background-color: var(--bg-main-color);
+    border-style: solid;
+    border-color: cadetblue;
+}
+.tendenciesContainer:hover{
+    background-color: darkslategray;
+}
+.tipoUno{
+    font-weight: bold;
+}

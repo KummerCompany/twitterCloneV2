@@ -1,0 +1,20 @@
+.bar{
+    width: 100%;
+    display: flex;
+    
+    
+}
+.toolbar{
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    
+}
+.button{
+    color: ivory !important;
+}
+.button:hover{
+    color: lightskyblue !important;
+    border-bottom: solid lightskyblue;
+    
+}
