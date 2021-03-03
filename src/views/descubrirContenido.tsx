@@ -1,9 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Grid from "@material-ui/core/Grid";
-import SearchIcon from "@material-ui/icons/Search";
-import InputBase from "@material-ui/core/InputBase";
-import Box from '@material-ui/core/Box';
+import InputSearch from "../componentes/inputSearch/inputSearch";
 
 function descubrirContenido() {
   return (
@@ -16,51 +14,23 @@ function descubrirContenido() {
           <div></div>
         </Grid>
         <Grid item xs={3}>
-          <div className="search-input">
-            <Box>
-              <SearchIcon />
-              </Box>
-              <Box>
-            <InputBase
-              placeholder="Search..."
-              inputProps={{ 'aria-label': 'search' }}
-            />
-            </Box>
+          <div className="div-input">
+          <InputSearch />
           </div>
-          <div>
+          <div className="feed-descrubrir">
+            <div className="descubrir-titulo">
               <h2>What’s happening</h2>
-          </div>
-            <div>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
-            sint ut quo quidem a, magni aliquid nobis, eum libero laborum
-            placeat laudantium cupiditate sunt voluptatem dolore hic quasi
-            deserunt. Veritatis? Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Soluta sint ut quo quidem a, magni aliquid nobis,
-            eum libero laborum placeat laudantium cupiditate sunt voluptatem
-            dolore hic quasi deserunt. Veritatis? Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Soluta sint ut quo quidem a, magni
-            aliquid nobis, eum libero laborum placeat laudantium cupiditate sunt
-            voluptatem dolore hic quasi deserunt. Veritatis? Lorem ipsum dolor
-            sit amet consectetur, adipisicing elit. Soluta sint ut quo quidem a,
-            magni aliquid nobis, eum libero laborum placeat laudantium
-            cupiditate sunt voluptatem dolore hic quasi deserunt. Veritatis?
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
-            sint ut quo quidem a, magni aliquid nobis, eum libero laborum
-            placeat laudantium cupiditate sunt voluptatem dolore hic quasi
-            deserunt. Veritatis? Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Soluta sint ut quo quidem a, magni aliquid nobis,
-            eum libero laborum placeat laudantium cupiditate sunt voluptatem
-            dolore hic quasi deserunt. Veritatis? Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Soluta sint ut quo quidem a, magni
-            aliquid nobis, eum libero laborum placeat laudantium cupiditate sunt
-            voluptatem dolore hic quasi deserunt. Veritatis? Lorem ipsum dolor
-            sit amet consectetur, adipisicing elit. Soluta sint ut quo quidem a,
-            magni aliquid nobis, eum libero laborum placeat laudantium
-            cupiditate sunt voluptatem dolore hic quasi deserunt. Veritatis?
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
-            sint ut quo quidem a, magni aliquid nobis, eum libero laborum
-            placeat laudantium cupiditate sunt voluptatem dolore hic quasi
-            deserunt. Veritatis?
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis delectus ut illum reiciendis maxime nihil hic ad, doloremque temporibus rem harum necessitatibus laborum vero! Modi suscipit similique quibusdam laudantium.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis delectus ut illum reiciendis maxime nihil hic ad, doloremque temporibus rem harum necessitatibus laborum vero! Modi suscipit similique quibusdam laudantium.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis delectus ut illum reiciendis maxime nihil hic ad, doloremque temporibus rem harum necessitatibus laborum vero! Modi suscipit similique quibusdam laudantium.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis delectus ut illum reiciendis maxime nihil hic ad, doloremque temporibus rem harum necessitatibus laborum vero! Modi suscipit similique quibusdam laudantium.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis delectus ut illum reiciendis maxime nihil hic ad, doloremque temporibus rem harum necessitatibus laborum vero! Modi suscipit similique quibusdam laudantium.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis delectus ut illum reiciendis maxime nihil hic ad, doloremque temporibus rem harum necessitatibus laborum vero! Modi suscipit similique quibusdam laudantium.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis delectus ut illum reiciendis maxime nihil hic ad, doloremque temporibus rem harum necessitatibus laborum vero! Modi suscipit similique quibusdam laudantium.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis delectus ut illum reiciendis maxime nihil hic ad, doloremque temporibus rem harum necessitatibus laborum vero! Modi suscipit similique quibusdam laudantium.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis delectus ut illum reiciendis maxime nihil hic ad, doloremque temporibus rem harum necessitatibus laborum vero! Modi suscipit similique quibusdam laudantium.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis delectus ut illum reiciendis maxime nihil hic ad, doloremque temporibus rem harum necessitatibus laborum vero! Modi suscipit similique quibusdam laudantium.</p>
           </div>
         </Grid>
       </Grid>
