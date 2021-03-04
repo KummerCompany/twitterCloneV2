@@ -1,19 +1,23 @@
 :root{
-  --bg-main-color: black;
+  --bg-dark: black;
+  --bg-secondary-color: rgb(73, 86, 83 );
   --main-color: rgb(29, 161, 242);
+  --secondary-color: rgb(171, 223, 255);
 
+/*FONTS*/
+  --font-light:white;
+  --font-dark:black;
+  --poppins:"Poppins";
+  --weight: 400;
+
+/*BUTTONS*/
+  --hiperlinkbutton-bg-dark:black;
+  --hiperlinkbutton-font-dark:white;
+  --hiper-font-style: normal;
+  --button-height: 50px;
+  --iconbutton-hover:  rgb(5, 65, 102);
+  --iconbutton-radius: 50px;
+  --padding: 20px;
+ 
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
